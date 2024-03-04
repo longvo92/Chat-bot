@@ -44,7 +44,6 @@ class tinNhan:protected Xulykytu{
 		}
 		void hoctap(){
 			string cauhoi,cautraloi;
-			//cin.ignore();
 			cout << "Hay nhap cau hoi: "<<endl;
 			getline(cin,cauhoi);
 			ChuanHoakytu(cauhoi);
@@ -54,9 +53,7 @@ class tinNhan:protected Xulykytu{
 					Reply.erase(it);
 				}
 			}
-			//cin.ignore();
 			cout << "Hay nhap cau tra loi: "<<endl;
-			
 			getline(cin,cautraloi);
 			ChuanHoakytu(cautraloi);
 			insert(cauhoi,cautraloi);
@@ -76,7 +73,13 @@ class tinNhan:protected Xulykytu{
 					}
 				
 				}
-				if(n==false) cout << "COM: Chua hoc" <<endl;
+				if(n==false){
+					string cautraloi;
+					cout << "COM: Toi chua hoc hay day toi cach tra loi :" <<endl;
+					getline(cin,cautraloi);
+					ChuanHoakytu(cautraloi);
+					insert(a,cautraloi);
+				} 
 			}
 			else cout<<"Chua nhap data\n";
 		}
@@ -135,7 +138,6 @@ class tinNhan:protected Xulykytu{
 		}
 		bool Xuatfile(){
 			string txt;
-			cin.ignore();
 			cout << "Nhap ten file: ";
 			getline(cin,txt);
 			ofstream out(txt.c_str());			
