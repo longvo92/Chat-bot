@@ -17,6 +17,7 @@ Nhập/Xuất Dữ Liệu: Người dùng có thể nhập dữ liệu từ file
 ### Chế Độ Phát Triển (Dev Mode):
 
 Chế độ này cho phép người dùng học chatbot thông qua việc thêm câu hỏi và câu trả lời mới.
+
 ## Hướng Dẫn Sử Dụng:
 
 - Chạy ứng dụng và nhập câu hỏi từ người dùng.
@@ -29,6 +30,7 @@ Chế độ này cho phép người dùng học chatbot thông qua việc thêm 
 Để kết thúc ứng dụng, nhập từ khóa "End".
 Chế độ phát triển sử dụng từ khóa "Dev".
 Nhập liệu từ file sử dụng "Import Data" và xuất dữ liệu ra file bằng "Export Data".
+Tải chatbot.exe và data.txt để có thể sử dụng chatbot một cách tốt nhất!
 
 ## To Do List:
 
