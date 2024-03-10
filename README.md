@@ -20,6 +20,7 @@ Chế độ này cho phép người dùng học chatbot thông qua việc thêm 
 
 ## Hướng Dẫn Sử Dụng:
 
+- Tải hai file chatbot.exe và data.txt.
 - Chạy ứng dụng và nhập câu hỏi từ người dùng.
 - Chatbot sẽ cố gắng trả lời dựa trên dữ liệu đã học.
 - Nếu chatbot không thể trả lời, nó sẽ học từ câu hỏi mới và lưu vào cơ sở dữ liệu.
@@ -27,10 +28,10 @@ Chế độ này cho phép người dùng học chatbot thông qua việc thêm 
 
 ## Lưu Ý:
 
-Để kết thúc ứng dụng, nhập từ khóa "End".
-Chế độ phát triển sử dụng từ khóa "Dev".
-Nhập liệu từ file sử dụng "Import Data" và xuất dữ liệu ra file bằng "Export Data".
-Tải chatbot.exe và data.txt để có thể sử dụng chatbot một cách tốt nhất!
+- Để kết thúc ứng dụng, nhập từ khóa "End".
+- Chế độ phát triển sử dụng từ khóa "Dev".
+- Nhập liệu từ file sử dụng "Import Data" và xuất dữ liệu ra file bằng "Export Data".
+- Tải chatbot.exe và data.txt để có thể trải nghiệm chatbot một cách tốt nhất!
 
 ## To Do List:
 
